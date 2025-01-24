@@ -162,3 +162,255 @@ var hml_js_css_js = document.getElementById("hml_js_Time")
 hml_js_css_js.style.color = hml_js_Big_picture_theme_color;
 
 // --------------------
+
+// 更多页面按钮1
+var hml_js_css_js = document.getElementById("hml_js_more_1")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮2
+var hml_js_css_js = document.getElementById("hml_js_more_2")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮3
+var hml_js_css_js = document.getElementById("hml_js_more_3")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮4
+var hml_js_css_js = document.getElementById("hml_js_more_4")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮5
+var hml_js_css_js = document.getElementById("hml_js_more_5")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮6
+var hml_js_css_js = document.getElementById("hml_js_more_6")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮7
+var hml_js_css_js = document.getElementById("hml_js_more_7")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮8
+var hml_js_css_js = document.getElementById("hml_js_more_8")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮9
+var hml_js_css_js = document.getElementById("hml_js_more_9")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮10
+var hml_js_css_js = document.getElementById("hml_js_more_10")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮11
+var hml_js_css_js = document.getElementById("hml_js_more_11")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮12
+var hml_js_css_js = document.getElementById("hml_js_more_12")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
