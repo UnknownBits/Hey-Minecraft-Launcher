@@ -1,0 +1,464 @@
+/* 布局的css */
+.hml_top_layout {
+    /* 窗口顶部布局 */
+
+    position: relative;
+    /* 子组件设置 */
+    top: 0;
+    /* 顶部对齐 */
+    left: 0;
+    /* 左边对齐 */
+    width: 100%;
+    /* 宽 */
+    height: 42px;
+    /* 长 */
+    /* 下面是模糊效果 */
+    backdrop-filter: blur(5px);
+
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+
+    user-select: none;
+    /* 禁止长按选中 */
+}
+
+/* ------------------------------------------------------- */
+.hml_Search_the_list {
+
+    /* 搜索列表的布局 */
+    position: absolute;
+    /* 子组件设置 */
+    top: 42px;
+    /* 顶部对齐 */
+    left: 0px;
+    /* 左边对齐 */
+    width: 230px;
+    /* 宽 */
+    height: calc(100% - 42px);
+    /* 长 */
+
+    /* 下面是模糊效果 */
+    backdrop-filter: blur(5px);
+    user-select: none;
+    /* 禁止长按选中 */
+
+    overflow-y: auto
+        /* 滚动条 */
+}
+
+/* ------------------------------------------------------- */
+.hml_A_list_of_search_lists {
+    /* 搜索列表的列表 */
+    display: flex;
+    /* 搜索列表的布局 */
+    position: absolute;
+    /* 子组件设置 */
+    top: 98px;
+    /* 顶部对齐 */
+    left: 12px;
+    /* 左边对齐 */
+    width: 205px;
+    /* 宽 */
+    height: calc(100% - 98px);
+    /* 长 */
+
+    user-select: none;
+    /* 禁止长按选中 */
+
+    background: #ffffff00;
+    /* 窗口颜色*/
+
+    overflow-y: auto
+        /* 滚动条 */
+
+
+}
+
+/* ------------------------------------------------------- */
+
+.hml_logo_button {
+    /* logo按钮的布局 */
+    position: absolute;
+    padding: 10px 10px;
+    /* 按钮内边距 */
+    background-color: #FFFFFF;
+    /* 按钮背景颜色 */
+    border-radius: 17px;
+    /* 边框圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+    display: inline-flex;
+    /* 按钮为行内弹性盒模型 */
+    align-items: center;
+    /* 子元素垂直居中 */
+    gap: 8px;
+    /* 图标和文本之间的间距 */
+
+    transition: background-color 0.3s;
+    /* 背景颜色过渡效果 */
+    top: 4px;
+    /* 顶部对齐 */
+    left: 9px;
+    /* 左边对齐 */
+
+}
+
+.hml_logo_button:hover {
+    background-color: #eeeeee;
+
+    /* 鼠标悬停时的背景颜色 */
+}
+
+/* ------------------------------------------------------- */
+
+.hml_Search_box_style {
+    /* 搜索框的 */
+    position: absolute;
+    border: none;
+    /* 隐藏边框 */
+    color: #6E6E6E;
+    /* 字体颜色*/
+    background-color: #ffffff;
+    /* 背景颜色 */
+    font-size: 12px;
+    /* 字体大小 */
+    padding-left: 33px;
+    /* 内边距 */
+    width: 148px;
+    /* 宽*/
+    height: 30px;
+    /* 高 */
+    border-radius: 17px;
+    /* 边框圆角 */
+    top: 5px;
+    /* 顶部对齐 */
+    left: 48px;
+    /* 左边对齐 */
+    box-shadow: inset 1px 2px 6px rgba(0, 0, 0, 0.39);
+    /* 内阴影效果 */
+    transition: background-color 0.3s;
+    /* 背景颜色过渡效果 */
+
+
+
+
+
+}
+
+.hml_Search_box_style:focus {
+
+    transition: background-color 0.3s;
+    /* 背景颜色过渡效果 */
+
+    background-color: #eeeeee;
+    /* 背景颜色 */
+    border: 0 solid #00000000;
+    /* 获得焦点时，边框变细 */
+    outline: none;
+    /* 移除默认的轮廓 */
+}
+
+.hml_Search_icon {
+    /* 搜索的图标 */
+    position: absolute;
+    top: 16px;
+    /* 顶部对齐 */
+    left: 60px;
+    /* 左边对齐 */
+
+}
+
+/* ------------------------------------------------------- */
+.hml_menu_div {
+    /* 菜单 */
+    /* 上方菜单的div */
+    display: flex;
+    position: absolute;
+    /* 子组件设置 */
+    background-color: #ffffff;
+    /* 背景颜色 */
+
+    height: 31px;
+    /* 高 */
+    border-radius: 17px;
+    /* 边框圆角 */
+    top: 5px;
+    /* 顶部对齐 */
+    left: 238px;
+    /* 左边对齐 */
+    box-shadow: inset 1px 2px 6px rgba(0, 0, 0, 0.39);
+    /* 内阴影效果 */
+
+    justify-content: space-between;
+    /* 两端对齐 */
+    align-items: center;
+    /* 垂直居中 */
+
+    padding-left: 20px;
+    /* 内边距 */
+    
+}
+
+.hml_menu_to_select_a_layout {
+    /* 菜单选择文字布局 */
+
+
+    margin-right: 20px;
+    /* 设置底部外边距 */
+    font-size: 12px;
+    /* 字体大小 */
+    color: #6E6E6E;
+    /* 字体颜色*/
+    
+    white-space: nowrap;
+    /* 不会换行 */
+
+}
+
+.hml_menu_to_select_a_layout:hover {
+    color: #000000;
+    /* 字体颜色*/
+
+}
+
+.hml_The_upper_menu_bar_is_selected {
+    /* 上方菜单栏已选择 */
+
+    /* 子组件 */
+    width: 12px;
+    /* 宽*/
+    height: 2px;
+    /* 高 */
+    margin: 5px auto -9px;
+    /* 居中 */
+    top: 29px;
+    /* 顶部对齐 */
+    border-radius: 1px 1px 0 0;
+    /* 边框圆角 */
+    
+
+}
+
+/* ------------------------------------------------------- */
+/* 关闭 */
+.hml_Shutdown {
+
+    position: relative;
+    border: none;
+    /* 隐藏边框 */
+    padding: 3px 3px;
+    /* 按钮内边距 */
+    background-color: #ffffff00;
+    /* 按钮背景颜色 */
+    border-radius: 17px;
+    /* 边框圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+    display: inline-flex;
+    /* 按钮为行内弹性盒模型 */
+    align-items: center;
+    /* 子元素垂直居中 */
+    gap: 8px;
+    /* 图标和文本之间的间距 */
+
+    transition: background-color 0.3s;
+    /* 背景颜色过渡效果 */
+    top: -37px;
+    /* 顶部对齐 */
+    left: calc(100% - 38px);
+    /* 左边对齐 */
+
+}
+
+.hml_Shutdown:hover {
+    background-color: #fabdbd;
+
+    /* 鼠标悬停时的背景颜色 */
+}
+
+/* 最小化 */
+.hml_minimization {
+
+    position: relative;
+    border: none;
+    /* 隐藏边框 */
+    padding: 3px 3px;
+    /* 按钮内边距 */
+    background-color: #e6e6e600;
+    /* 按钮背景颜色 */
+    border-radius: 17px;
+    /* 边框圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+    display: inline-flex;
+    /* 按钮为行内弹性盒模型 */
+    align-items: center;
+    /* 子元素垂直居中 */
+    gap: 8px;
+    /* 图标和文本之间的间距 */
+    width: 28px;
+    /* 宽*/
+    height: 28px;
+    /* 高 */
+    transition: background-color 0.3s;
+    /* 背景颜色过渡效果 */
+    top: -37px;
+    /* 顶部对齐 */
+    left: calc(100% - 115px);
+    /* 左边对齐 */
+
+}
+
+.hml_minimization:hover {
+    background-color: #b8b8b8;
+
+    /* 鼠标悬停时的背景颜色 */
+}
+
+/* ------------------------------------------------------- */
+.hml_Filter_selections {
+    /* 上方筛选选择 */
+
+    display: flex;
+    position: absolute;
+    /* 子组件设置 */
+    background-color: #ffffff;
+    /* 背景颜色 */
+    width: 140px;
+    /* 宽*/
+    height: 31px;
+    /* 高 */
+    border-radius: 17px;
+    /* 边框圆角 */
+    top: 40px;
+    /* 顶部对齐 */
+    left: 17px;
+    /* 左边对齐 */
+
+    justify-content: space-between;
+    /* 两端对齐 */
+    align-items: center;
+    /* 垂直居中 */
+
+    padding-left: 13px;
+    /* 内边距 */
+
+
+
+}
+
+.hml_Filter_button {
+    /* 上方筛选按钮 */
+
+    position: absolute;
+    padding: 8px 8.5px;
+    /* 按钮内边距 */
+    background-color: #FFFFFF;
+    /* 按钮背景颜色 */
+    border-radius: 18px;
+    /* 边框圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+    display: inline-flex;
+    /* 按钮为行内弹性盒模型 */
+    align-items: center;
+    /* 子元素垂直居中 */
+    gap: 0px;
+    /* 图标和文本之间的间距 */
+    width: 33px;
+    /* 宽*/
+    height: 33px;
+    /* 高 */
+    transition: background-color 0.3s;
+    /* 背景颜色过渡效果 */
+    top: 40px;
+    /* 顶部对齐 */
+    left: 180px;
+    /* 左边对齐 */
+
+}
+
+.hml_Filter_button:hover {
+    background-color: #eeeeee;
+
+    /* 鼠标悬停时的背景颜色 */
+}
+
+
+.hml_Drop_down_filter {
+    /* 上面箭头的下拉筛选 */
+    transform: translate(115px);
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+
+
+}
+
+/* ------------------------------------------------------- */
+
+.hml_The_container_on_the_right{   /* 右边的容器 */
+
+    display: flex;
+    /* 搜索列表的布局 */
+    position: absolute;
+    /* 子组件设置 */
+    top: 43px;
+    /* 顶部对齐 */
+    left: 231px;
+    /* 左边对齐 */
+    width: calc(100% - 231px);
+    /* 宽 */
+    height: calc(100% - 43px);
+    /* 长 */
+
+    user-select: none;
+    /* 禁止长按选中 */
+
+    background: #ff000000;
+    /* 窗口颜色*/
+
+    overflow-y: auto
+    /* 滚动条 */
+
+
+
+}
+
+/* ------------------------------------------------------- */
+.hml_Text_stretch_appearance{ /* 文字拉伸外观 */
+
+    display: flex;
+    position: absolute;
+
+    padding: 2px 4px 2px 4px;
+    /* 上右下左 内边 */
+
+
+}
+
+.hml_Universal_button{ /* 通用的按钮（我这里调教的很好的啦） */
+
+    padding: 8px 8px;
+    /* 按钮内边距 */
+    font-size: 12px;
+    /* 文本字体大小 */
+    color: #000000;
+    /* 文本颜色 */
+    border: none;
+    /* 无边框 */
+    border-radius: 16px;
+    /* 边框圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+    display: inline-flex;
+    /* 按钮为行内弹性盒模型 */
+    align-items: center;
+    /* 子元素垂直居中 */
+    gap: 3px;
+    /* 图标和文本之间的间距 */
+    transition: background-color 0.3s;
+    /* 添加背景颜色过渡效果 */
+    padding: 8px 8px 8px 8px;
+    /* 上右下左 内边 */
+}
+

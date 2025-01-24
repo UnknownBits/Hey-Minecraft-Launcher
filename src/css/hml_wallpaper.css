@@ -1,0 +1,77 @@
+/* 这个是壁纸和字体的css */
+.hml_wallpaper1 {
+    /* 壁纸 */
+    width: 100%;
+    /* 宽 */
+    height: 100%;
+    /* 高 */
+    position: absolute;
+    /* 使用绝对定位 */
+    left: 50%;
+    /* 水平居中 */
+    transform: translateX(-50%);
+    /* 水平居中 */
+    object-fit: cover;
+    /* 保持图片的宽高比，同时覆盖整个容器 */
+    -webkit-user-drag: none;
+    /* 禁止图片拖动 */
+
+}
+
+/* ------------------------------------------------------- */
+/* 字体的 */
+
+@font-face {
+    font-family: 'Source Han Sans SC';
+    /* 自定义字体名称 */
+    src: url('./personalize/SourceHanSansSC.otf') format('otf');
+    /* 指定字体文件路径和格式 */
+    font-style: normal;
+    /* 字体样式 */
+}
+
+/* 将自定义字体应用到页面所有元素 */
+* {
+    font-family: 'Source Han Sans SC', sans-serif;
+    /* 首先使用自定义字体，如果没有加载成功则使用系统默认的无衬线字体 */
+}
+
+/* ------------------------------------------------------- */
+
+/* 全局滚动条样式 */
+
+/* 修改滚动条的宽度 */
+::-webkit-scrollbar {
+    width: 8px;
+    /* 垂直滚动条的宽度 */
+    height: 6px;
+    /* 水平滚动条的高度 */
+}
+
+/* 修改滚动条轨道的样式 */
+::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.33);
+    /* 轨道背景颜色 */
+    border-radius: 3px;
+    /* 轨道圆角 */
+}
+
+/* 修改滚动条滑块的样式 */
+::-webkit-scrollbar-thumb {
+    background: #c3895f;
+    /* 滑块背景颜色 */
+    border-radius: 10px;
+    /* 滑块圆角 */
+}
+
+/* 当滚动条滑块处于悬停状态时的样式 */
+::-webkit-scrollbar-thumb:hover {
+    background: #c67b47;
+    /* 悬停时滑块背景颜色 */
+    cursor: pointer;
+    /* 鼠标悬停时的光标样式 */
+
+    
+}
+
+/*------------*/
