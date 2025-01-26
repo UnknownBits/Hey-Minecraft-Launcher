@@ -414,3 +414,66 @@ hml_js_css_js.addEventListener('mouseout', function () {
 });
 
 // --------------------
+
+// 更多页面按钮13
+var hml_js_css_js = document.getElementById("hml_js_more_13")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮14
+var hml_js_css_js = document.getElementById("hml_js_more_14")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
+
+// 更多页面按钮15
+var hml_js_css_js = document.getElementById("hml_js_more_15")
+// 背景颜色
+hml_js_css_js.style.backgroundColor = hml_js_Bokeh_color;
+
+// 虚化
+hml_js_css_js.style.backdropFilter = "blur(" + hml_js_xh + "px)";
+
+
+// 鼠标靠近时改变颜色
+hml_js_css_js.addEventListener('mouseover', function () {
+    this.style.backgroundColor = "#b8b8b8"; // 鼠标靠近后的颜色
+});
+
+// 鼠标离开时恢复颜色
+hml_js_css_js.addEventListener('mouseout', function () {
+    this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
+});
+
+// --------------------
