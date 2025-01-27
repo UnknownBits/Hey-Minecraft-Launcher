@@ -12,6 +12,7 @@
     <link href="./css/hml_wallpaper.css" rel="stylesheet"> <!-- 壁纸 -->
     <link href="./css/hml_color.css" rel="stylesheet"> <!-- 颜色 -->
     <link href="./css/hml_layout.css" rel="stylesheet"> <!-- 布局 -->
+    <link href="./css/hml_animation.css" rel="stylesheet"> <!-- 动画 -->
 
 
     <style>
@@ -37,7 +38,7 @@
 
 <div style="pointer-events: none;">
     <!-- 壁纸 -->
-    <img style="filter: blur(2px);" class="hml_wallpaper1" src="./personalize/wallpaper.jpg">
+    <img style="filter: blur(3px);" class="hml_wallpaper1" src="./personalize/wallpaper.jpg">
 </div>
 
 <div class="hml_top_layout" data-tauri-drag-region id="hml_js1_window"> <!-- 上方的容器 -->
@@ -238,10 +239,10 @@
 </div>
 
 <!-- ------------------------------------------------------- -->
-<div>
+<div id="hml_js_Right_layout_js">
     <div class="hml_The_container_on_the_right"> <!-- 这个就是右边布局的容器了 -->
         <!-- ------------------------------------------------------- -->
-        <div style="display: none;"> <!-- 主页 -->
+        <div id="hml_js_Main_page1" style=""> <!-- 主页 -->
 
             <div style="position: absolute; top: -17px; left: 22px;"> <!-- 又上角 -->
                 <p class="hml_Font_color" id="hml_js_Time" style="font-size: 40px;">13:20</p>
@@ -350,7 +351,7 @@
 
         </div>
         <!-- ------------------------------------------------------- -->
-        <div> <!-- 更多的页面 -->
+        <div id="hml_js_Main_page2" style="display: none;"> <!-- 更多的页面 -->
 
             <div style="position: relative; top: 16px; left: 20px;"> <!-- 下面的 -->
 
@@ -393,7 +394,7 @@
                     <div style="position: relative; border-radius: 10px; overflow: hidden; background-color: rgba(255,255,255,0.42); width: 280px; height: 100%;">
                         <!-- 正式版 -->
 
-                        <img style="filter: blur(2px); -webkit-user-drag: none; height: 100%"
+                        <img style="filter: blur(3px); -webkit-user-drag: none; height: 100%"
                              src="https://zh.minecraft.wiki/images/1.21.4.png?69c89">
 
                         <div style="position: absolute;top: 10px; left: 10px; background-color: rgba(255,255,255,0); width: 280px; height: 160px;">
@@ -403,12 +404,12 @@
                             </div>
                             <br>
                             <div class="hml_Text_stretch_appearance hml_Bokeh_color_effect" id="hml_js_Tip_tabs"
-                                 style="font-size: 18px; margin: 14px 0px 10px; color: #000; white-space: nowrap;">
+                                 style="font-size: 18px; margin: 16px 0px 10px; color: #000; white-space: nowrap;">
                                 1.21.4
                             </div>
                             <br>
                             <div class="hml_Text_stretch_appearance hml_Bokeh_color_effect" id="hml_js_Tip_tabs"
-                                 style="font-size: 12px; margin: 24px 0px 10px; color: #000; white-space: nowrap;">
+                                 style="font-size: 12px; margin: 26px 0px 10px; color: #000; white-space: nowrap;">
                                 正式版
                             </div>
                             <br>
@@ -429,7 +430,7 @@
 
                     <div style="margin: 0px 5px 0px; position: relative; border-radius: 10px; overflow: hidden; background-color: rgba(255,255,255,0.42); width: 280px; height: 100%;">
                         <!-- 测试版 -->
-                        <img style="filter: blur(2px); -webkit-user-drag: none; height: 100%"
+                        <img style="filter: blur(3px); -webkit-user-drag: none; height: 100%"
                              src="https://zh.minecraft.wiki/images/thumb/25w04a.png/280px-25w04a.png?12b2b">
 
                         <div style="position: absolute;top: 10px; left: 10px; background-color: rgba(255,255,255,0); width: 280px; height: 160px;">
@@ -439,12 +440,12 @@
                             </div>
                             <br>
                             <div class="hml_Text_stretch_appearance hml_Bokeh_color_effect" id="hml_js_Tip_tabs"
-                                 style="font-size: 18px; margin: 14px 0px 10px; color: #000; white-space: nowrap;">
+                                 style="font-size: 18px; margin: 16px 0px 10px; color: #000; white-space: nowrap;">
                                 25w04a
                             </div>
                             <br>
                             <div class="hml_Text_stretch_appearance hml_Bokeh_color_effect" id="hml_js_Tip_tabs"
-                                 style="font-size: 12px; margin: 24px 0px 10px; color: #000; white-space: nowrap;">
+                                 style="font-size: 12px; margin: 26px 0px 10px; color: #000; white-space: nowrap;">
                                 测试版
                             </div>
                             <br>
@@ -807,7 +808,6 @@
             </div>
 
         </div>
-
         <!-- ------------------------------------------------------- -->
 
     </div>
@@ -825,6 +825,9 @@
 <script src="main.js"></script>
 <!-- 窗口控制 -->
 <script src="/js/hml_js_Window_control.js"></script>
+<!-- 动画 -->
+<script src="/js/hml-js_animation.js"></script>
+
 
 </body>
 

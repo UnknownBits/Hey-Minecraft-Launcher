@@ -3,13 +3,13 @@
 // 变量
 
 // 全局窗口颜色
-var hml_js_Window_theme_color = "#ffffff62"
+var hml_js_Window_theme_color = "#ffffff30"
 
 // 全局主题颜色+部分字体
 var hml_js_Big_picture_theme_color = "#E69F6C"
 
 // 全局虚化颜色
-var hml_js_Bokeh_color = "#e69f6c50"
+var hml_js_Bokeh_color = "#e69f6c20"
 //全局虚化效果
 var hml_js_xh = "5"
 
@@ -476,4 +476,3 @@ hml_js_css_js.addEventListener('mouseout', function () {
     this.style.backgroundColor = hml_js_Bokeh_color; // 恢复初始颜色
 });
 
-// --------------------

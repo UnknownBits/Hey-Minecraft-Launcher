@@ -1,0 +1,20 @@
+/* 动画的css */
+/* 暗淡动画------------- */
+/*正*/
+@keyframes hml_css_Dim_animations {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/*反*/
+@keyframes hml_css_Dim_animations2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
