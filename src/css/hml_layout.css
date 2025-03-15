@@ -42,7 +42,7 @@
     user-select: none;
     /* 禁止长按选中 */
 
-    overflow-y: auto
+    overflow-y: auto;
         /* 滚动条 */
 }
 
